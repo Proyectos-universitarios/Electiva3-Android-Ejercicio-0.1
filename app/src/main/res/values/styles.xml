@@ -7,6 +7,7 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 <array name="categorias">
+    <item>SELECCIONE UNA CATEGORIA</item>
     <item>CARNE</item>
     <item>POLLO</item>
     <item>FRUTAS</item>
