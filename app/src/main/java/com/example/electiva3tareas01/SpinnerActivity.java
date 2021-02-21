@@ -18,23 +18,5 @@ public class SpinnerActivity extends AppCompatActivity {
         Categorias = getResources().getStringArray(R.array.categorias);
         sp = (Spinner) findViewById(R.id.spinnerid);
 
-        ArrayAdapter<String> itemsAdapter =
-                new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, Categorias);
-        sp.setAdapter(itemsAdapter);
-
-        sp.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
-            @Override
-            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                if (position > 0)
-                {
-                    Toast.makeText(getApplicationContext(), "usted selecciono: "+Categorias[position], Toast.LENGTH_SHORT).show();
-                }
-            }
-
-            @Override
-            public void onNothingSelected(AdapterView<?> parent) {
-
-            }
-        });
     }
 }

@@ -10,5 +10,5 @@
     <Spinner
             android:layout_width="409dp"
             android:layout_height="wrap_content" tools:layout_editor_absoluteX="1dp" android:id="@+id/spinnerid"
-            tools:layout_editor_absoluteY="2dp"/>
+            tools:layout_editor_absoluteY="2dp" android:entries="@array/categorias"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
